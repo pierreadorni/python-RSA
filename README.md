@@ -38,7 +38,7 @@ You can also encrypt or decrypt files as following:
 $ python RSA.py --encrypt file -k key-public.key
 $ python RSA.py --decrypt file-encrypted -k key-private.key
 ```
-the encryption of *file.\** will result in the creation (or update) of *file-encrypted.\**, and the decryption of a *file-encrypted.\** will be written in *file.\** (it will try to remove the -encrypted in the name, if it can't find it will overwrite the encrypted file)
+the encryption of *file.txt will result in the creation (or update) of *file-encrypted.txt, and the decryption of a *file-encrypted.txt will be written in *file.txt* (it will try to remove the -encrypted in the name, if it can't find it will overwrite the encrypted file)
 
 ### inside a script
 you can also use this script inside yours by calling the **getKeys(strenght)** function of utils&#46;py.

@@ -35,10 +35,10 @@ The above command will specifically ask the program to find **15 digits long** p
 
 You can also encrypt or decrypt files as following:
 ```
-$ python RSA.py --encrypt file.txt -k publicKey.key
-$ python RSA.py --decrypt file-encrypted.txt -k privateKey.key
+$ python RSA.py --encrypt file -k publicKey.key
+$ python RSA.py --decrypt file-encrypted -k privateKey.key
 ```
-the encryption of *file.ext* will result in the creation (or update) of *file-encrypted.ext*, and the decryption of a *file-encrypted.ext* will be written in *file.ext* (it will try to remove the -encrypted in the name, if it can't find it will overwrite the encrypted file)
+the encryption of *file.\** will result in the creation (or update) of *file-encrypted.\**, and the decryption of a *file-encrypted.\** will be written in *file.\** (it will try to remove the -encrypted in the name, if it can't find it will overwrite the encrypted file)
 
 ### inside a script
 you can also use this script inside yours by calling the **getKeys(strenght)** function of utils&#46;py.

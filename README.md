@@ -14,7 +14,7 @@ With this script, you can:
 	
 ## Technologies
 Uses the [Miller-Rabin primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test), written in python by [Ayrx](https://github.com/Ayrx), to find big prime numbers (154 digits by default)
-and  the [Extended Euclidean Algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) to compute them into RSA Keys that are **indestructible** with today's computing power
+and  the [Extended Euclidean Algorithm](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) to compute them into RSA Keys.
 
 	
 ## Usage
